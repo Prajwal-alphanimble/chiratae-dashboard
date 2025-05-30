@@ -1,0 +1,128 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("NEXT_PUBLIC_DATABASE_URL")
+}
+
+enum UserRole {
+  ADMIN
+  USER
+  VIEWER
+}
+
+enum PermissionLevel {
+  VIEW
+  EDIT
+  MANAGE
+}
+
+enum ViewType {
+  CHART
+  TABLE
+}
+
+enum SourceType {
+  AI
+  QUANTIUM
+}
+
+model User {
+  id                String           @id
+  email             String?          @unique // Added @unique constraint for best practice
+  name              String?
+  role              UserRole         @default(USER)
+  views             View[]
+  dashboards        Dashboard[]
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+  dashboardSent     DashboardShare[] @relation("SharedWith")
+  dashboardRecieved DashboardShare[] @relation("SharedBy")
+  sharedViews       ViewShare[]      @relation("ViewSharedWith")
+  viewsShared       ViewShare[]      @relation("ViewSharedBy")
+}
+
+model View {
+  id             String          @id @default(cuid())
+  data           Json
+  type           ViewType
+  source         SourceType
+  title          String
+  userId         String          @map("user_id")
+  user           User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dashboardItems DashboardView[]
+  shares         ViewShare[]
+  createdAt      DateTime        @default(now())
+  updatedAt      DateTime        @updatedAt
+
+  @@index([userId])
+}
+
+model Dashboard {
+  id             String           @id @default(cuid())
+  title          String
+  layout         Json
+  userId         String           @map("user_id")
+  user           User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  dashboardItems DashboardView[]
+  shares         DashboardShare[]
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+
+  @@index([userId])
+}
+
+model DashboardView {
+  id          String    @id @default(cuid())
+  dashboardId String
+  dashboard   Dashboard @relation(fields: [dashboardId], references: [id], onDelete: Cascade) // Added back onDelete: Cascade
+  viewId      String
+  view        View      @relation(fields: [viewId], references: [id], onDelete: Cascade) // Added back onDelete: Cascade
+  viewProps   Json      @map("view_props")
+  addedAt     DateTime  @default(now())
+
+  @@index([viewId])
+  @@index([dashboardId])
+}
+
+model DashboardShare {
+  id           String          @id @default(cuid())
+  dashboardId  String
+  dashboard    Dashboard       @relation(fields: [dashboardId], references: [id], onDelete: Cascade)
+  sharedById   String
+  sharedBy     User            @relation("SharedBy", fields: [sharedById], references: [id], onDelete: Cascade)
+  sharedWithId String
+  sharedWith   User            @relation("SharedWith", fields: [sharedWithId], references: [id], onDelete: Cascade)
+  permission   PermissionLevel @default(VIEW)
+  createdAt    DateTime        @default(now())
+
+  @@unique([dashboardId, sharedWithId])
+  @@index([sharedById])
+  @@index([sharedWithId])
+  @@index([dashboardId])
+}
+
+model ViewShare {
+  id           String          @id @default(cuid())
+  viewId       String
+  view         View            @relation(fields: [viewId], references: [id], onDelete: Cascade)
+  sharedById   String
+  sharedBy     User            @relation("ViewSharedBy", fields: [sharedById], references: [id], onDelete: Cascade)
+  sharedWithId String
+  sharedWith   User            @relation("ViewSharedWith", fields: [sharedWithId], references: [id], onDelete: Cascade)
+  permission   PermissionLevel @default(VIEW)
+  createdAt    DateTime        @default(now())
+
+  @@unique([viewId, sharedWithId])
+  @@index([sharedById])
+  @@index([sharedWithId])
+  @@index([viewId])
+}

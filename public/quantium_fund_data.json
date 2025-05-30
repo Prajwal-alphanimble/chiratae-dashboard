@@ -1,0 +1,564 @@
+{
+  "funds": [
+    {
+      "name": "Pandara Trust",
+      "currency": "INRm",
+      "TVPI_ratio": {
+        "Jun'22": {
+          "Distribution": 1430.42,
+          "Drawdown": 1120.8,
+          "TVPI_pre_carry": 3.43,
+          "TVPI_post_carry": 2.94,
+          "Net_IRR_before_carry": "23.1%",
+          "Net_IRR_after_carry": "20.5%",
+          "DPI_original_commitment": 1.28,
+          "DPI_incl_recall": "NA"
+        },
+        "Sep'22": {
+          "Distribution": 1430.42,
+          "Drawdown": 1120.8,
+          "TVPI_pre_carry": 3.49,
+          "TVPI_post_carry": 2.99,
+          "Net_IRR_before_carry": "22.7%",
+          "Net_IRR_after_carry": "20.3%",
+          "DPI_original_commitment": 1.28,
+          "DPI_incl_recall": "NA"
+        },
+        "Dec'22": {
+          "Distribution": 1543.38,
+          "Drawdown": 1120.8,
+          "TVPI_pre_carry": 3.26,
+          "TVPI_post_carry": 2.8,
+          "Net_IRR_before_carry": "21.2%",
+          "Net_IRR_after_carry": "18.9%",
+          "DPI_original_commitment": 1.38,
+          "DPI_incl_recall": "NA"
+        },
+        "Est Mar'23": {
+          "Distribution": 1586.08,
+          "Drawdown": 1120.8,
+          "TVPI_pre_carry": 3.04,
+          "TVPI_post_carry": 2.63,
+          "Net_IRR_before_carry": "19.8%",
+          "Net_IRR_after_carry": "17.6%",
+          "DPI_original_commitment": 1.42,
+          "DPI_incl_recall": "NA"
+        }
+      },
+      "MOIC": {
+        "Jun'22": {
+          "Divestments": 1553.33,
+          "Unrealised_fair_value": 2357.31,
+          "Forex": 7.86,
+          "Amt_invested": 949.72,
+          "Gross_IRR_after_Forex": "27.8%",
+          "MOIC_incl_FOREX": "4.12x"
+        },
+        "Sep'22": {
+          "Divestments": 1553.33,
+          "Unrealised_fair_value": 2424.19,
+          "Forex": 9.88,
+          "Amt_invested": 949.72,
+          "Gross_IRR_after_Forex": "27.5%",
+          "MOIC_incl_FOREX": "4.19x"
+        },
+        "Dec'22": {
+          "Divestments": 1681.87,
+          "Unrealised_fair_value": 2044.47,
+          "Forex": 10.83,
+          "Amt_invested": 949.72,
+          "Gross_IRR_after_Forex": "25.9%",
+          "MOIC_incl_FOREX": "3.92x"
+        },
+        "Est Mar'23": {
+          "Divestments": 1681.87,
+          "Unrealised_fair_value": 1805.19,
+          "Forex": 10.23,
+          "Amt_invested": 949.72,
+          "Gross_IRR_after_Forex": "24.4%",
+          "MOIC_incl_FOREX": "3.67x"
+        }
+      }
+    },
+    {
+      "name": "Fund II",
+      "currency": "USDm",
+      "TVPI_ratio": {
+        "Jun'22": {
+          "Distribution": 87.76,
+          "Drawdown": 84.74,
+          "TVPI_pre_carry": 2.76,
+          "TVPI_post_carry": 2.4,
+          "Net_IRR_before_carry": "19.4%",
+          "Net_IRR_after_carry": "17.1%",
+          "DPI_original_commitment": 1.16,
+          "DPI_incl_recall": 1.04
+        },
+        "Sep'22": {
+          "Distribution": 88.29,
+          "Drawdown": 84.74,
+          "TVPI_pre_carry": 2.82,
+          "TVPI_post_carry": 2.46,
+          "Net_IRR_before_carry": "19.3%",
+          "Net_IRR_after_carry": "17.0%",
+          "DPI_original_commitment": 1.16,
+          "DPI_incl_recall": 1.04
+        },
+        "Dec'22": {
+          "Distribution": 99.14,
+          "Drawdown": 84.74,
+          "TVPI_pre_carry": 2.6,
+          "TVPI_post_carry": 2.28,
+          "Net_IRR_before_carry": "17.6%",
+          "Net_IRR_after_carry": "15.4%",
+          "DPI_original_commitment": 1.31,
+          "DPI_incl_recall": 1.17
+        },
+        "Est Mar'23": {
+          "Distribution": 101.64,
+          "Drawdown": 84.74,
+          "TVPI_pre_carry": 2.43,
+          "TVPI_post_carry": 2.14,
+          "Net_IRR_before_carry": "16.2%",
+          "Net_IRR_after_carry": "14.2%",
+          "DPI_original_commitment": 1.34,
+          "DPI_incl_recall": 1.2
+        }
+      },
+      "MOIC": {
+        "Jun'22": {
+          "Divestments": 96.18,
+          "Unrealised_fair_value": 142.56,
+          "Forex": -10.57,
+          "Amt_invested": 73.83,
+          "Gross_IRR_after_Forex": "23.2%",
+          "MOIC_incl_FOREX": "3.23x"
+        },
+        "Sep'22": {
+          "Divestments": 96.26,
+          "Unrealised_fair_value": 147.77,
+          "Forex": -4.83,
+          "Amt_invested": 73.83,
+          "Gross_IRR_after_Forex": "22.8%",
+          "MOIC_incl_FOREX": "3.31x"
+        },
+        "Dec'22": {
+          "Divestments": 101.23,
+          "Unrealised_fair_value": 117.57,
+          "Forex": -5.34,
+          "Amt_invested": 73.83,
+          "Gross_IRR_after_Forex": "21.0%",
+          "MOIC_incl_FOREX": "2.96x"
+        },
+        "Est Mar'23": {
+          "Divestments": 101.23,
+          "Unrealised_fair_value": 103.44,
+          "Forex": -5.15,
+          "Amt_invested": 73.83,
+          "Gross_IRR_after_Forex": "19.7%",
+          "MOIC_incl_FOREX": "2.77x"
+        }
+      }
+    },
+    {
+      "name": "Chiratae Trust",
+      "currency": "INRm",
+      "TVPI_ratio": {
+        "Jun'22": {
+          "Distribution": 844.31,
+          "Drawdown": 5608.07,
+          "TVPI_pre_carry": 3.06,
+          "TVPI_post_carry": 2.65,
+          "Net_IRR_before_carry": "30.8%",
+          "Net_IRR_after_carry": "26.6%",
+          "DPI_original_commitment": 0.15,
+          "DPI_incl_recall": "-"
+        },
+        "Sep'22": {
+          "Distribution": 1874.92,
+          "Drawdown": 5608.07,
+          "TVPI_pre_carry": 2.99,
+          "TVPI_post_carry": 2.59,
+          "Net_IRR_before_carry": "28.4%",
+          "Net_IRR_after_carry": "24.5%",
+          "DPI_original_commitment": 0.33,
+          "DPI_incl_recall": "-"
+        },
+        "Dec'22": {
+          "Distribution": 1874.92,
+          "Drawdown": 5608.07,
+          "TVPI_pre_carry": 2.93,
+          "TVPI_post_carry": 2.54,
+          "Net_IRR_before_carry": "26.4%",
+          "Net_IRR_after_carry": "22.8%",
+          "DPI_original_commitment": 0.33,
+          "DPI_incl_recall": "-"
+        },
+        "Est Mar'23": {
+          "Distribution": 1874.92,
+          "Drawdown": 5664.07,
+          "TVPI_pre_carry": 2.88,
+          "TVPI_post_carry": 2.5,
+          "Net_IRR_before_carry": "24.9%",
+          "Net_IRR_after_carry": "21.5%",
+          "DPI_original_commitment": 0.33,
+          "DPI_incl_recall": "-"
+        }
+      },
+      "MOIC": {
+        "Jun'22": {
+          "Divestments": 1166.52,
+          "Unrealised_fair_value": 16197,
+          "Forex": 49.91,
+          "Amt_invested": 4937.71,
+          "Gross_IRR_after_Forex": "37.3%",
+          "MOIC_incl_FOREX": "3.52x"
+        },
+        "Sep'22": {
+          "Divestments": 2182.01,
+          "Unrealised_fair_value": 14797,
+          "Forex": 67.47,
+          "Amt_invested": 4945.7,
+          "Gross_IRR_after_Forex": "34.4%",
+          "MOIC_incl_FOREX": "3.43x"
+        },
+        "Dec'22": {
+          "Divestments": 2182.01,
+          "Unrealised_fair_value": 14483,
+          "Forex": 75.4,
+          "Amt_invested": 4945.7,
+          "Gross_IRR_after_Forex": "32.1%",
+          "MOIC_incl_FOREX": "3.37x"
+        },
+        "Est Mar'23": {
+          "Divestments": 2182.01,
+          "Unrealised_fair_value": 14406,
+          "Forex": 70.35,
+          "Amt_invested": 4997.5,
+          "Gross_IRR_after_Forex": "30.3%",
+          "MOIC_incl_FOREX": "3.32x"
+        }
+      }
+    },
+    {
+      "name": "Fund III",
+      "currency": "USDm",
+      "TVPI_ratio": {
+        "Jun'22": {
+          "Distribution": 1.93,
+          "Drawdown": 124.45,
+          "TVPI_pre_carry": 2.49,
+          "TVPI_post_carry": 2.19,
+          "Net_IRR_before_carry": "25.0%",
+          "Net_IRR_after_carry": "21.3%",
+          "DPI_original_commitment": 0.02,
+          "DPI_incl_recall": "-"
+        },
+        "Sep'22": {
+          "Distribution": 7.68,
+          "Drawdown": 124.45,
+          "TVPI_pre_carry": 2.32,
+          "TVPI_post_carry": 2.06,
+          "Net_IRR_before_carry": "21.6%",
+          "Net_IRR_after_carry": "18.4%",
+          "DPI_original_commitment": 0.06,
+          "DPI_incl_recall": "-"
+        },
+        "Dec'22": {
+          "Distribution": 14.96,
+          "Drawdown": 124.45,
+          "TVPI_pre_carry": 2.23,
+          "TVPI_post_carry": 1.98,
+          "Net_IRR_before_carry": "19.3%",
+          "Net_IRR_after_carry": "16.4%",
+          "DPI_original_commitment": 0.12,
+          "DPI_incl_recall": "-"
+        },
+        "Est Mar'23": {
+          "Distribution": 14.96,
+          "Drawdown": 125.88,
+          "TVPI_pre_carry": 2.22,
+          "TVPI_post_carry": 1.98,
+          "Net_IRR_before_carry": "18.4%",
+          "Net_IRR_after_carry": "15.6%",
+          "DPI_original_commitment": 0.12,
+          "DPI_incl_recall": "-"
+        }
+      },
+      "MOIC": {
+        "Jun'22": {
+          "Divestments": 10.55,
+          "Unrealised_fair_value": 317.7,
+          "Forex": -12.02,
+          "Amt_invested": 112.18,
+          "Gross_IRR_after_Forex": "30.9%",
+          "MOIC_incl_FOREX": "2.9x"
+        },
+        "Sep'22": {
+          "Divestments": 16.58,
+          "Unrealised_fair_value": 291.2,
+          "Forex": -14.13,
+          "Amt_invested": 112.33,
+          "Gross_IRR_after_Forex": "27.1%",
+          "MOIC_incl_FOREX": "2.7x"
+        },
+        "Dec'22": {
+          "Divestments": 23.44,
+          "Unrealised_fair_value": 271.7,
+          "Forex": -14.79,
+          "Amt_invested": 112.33,
+          "Gross_IRR_after_Forex": "24.4%",
+          "MOIC_incl_FOREX": "2.6x"
+        },
+        "Est Mar'23": {
+          "Divestments": 23.44,
+          "Unrealised_fair_value": 274.71,
+          "Forex": -14.36,
+          "Amt_invested": 113.27,
+          "Gross_IRR_after_Forex": "23.4%",
+          "MOIC_incl_FOREX": "2.6x"
+        }
+      }
+    },
+    {
+      "name": "TVF",
+      "currency": "INRm",
+      "TVPI_ratio": {
+        "Jun'22": {
+          "Distribution": 1148.15,
+          "Drawdown": 1609.47,
+          "TVPI_pre_carry": 2.21,
+          "TVPI_post_carry": 1.97,
+          "Net_IRR_before_carry": "22.4%",
+          "Net_IRR_after_carry": "19.1%",
+          "DPI_original_commitment": 0.71,
+          "DPI_incl_recall": 0.71
+        },
+        "Sep'22": {
+          "Distribution": 1277.67,
+          "Drawdown": 1609.47,
+          "TVPI_pre_carry": 2.22,
+          "TVPI_post_carry": 1.97,
+          "Net_IRR_before_carry": "21.6%",
+          "Net_IRR_after_carry": "18.6%",
+          "DPI_original_commitment": 0.79,
+          "DPI_incl_recall": 0.79
+        },
+        "Dec'22": {
+          "Distribution": 1277.67,
+          "Drawdown": 1609.47,
+          "TVPI_pre_carry": 2.12,
+          "TVPI_post_carry": 1.89,
+          "Net_IRR_before_carry": "19.6%",
+          "Net_IRR_after_carry": "16.8%",
+          "DPI_original_commitment": 0.79,
+          "DPI_incl_recall": 0.79
+        },
+        "Est Mar'23": {
+          "Distribution": 1277.67,
+          "Drawdown": 1609.47,
+          "TVPI_pre_carry": 2.12,
+          "TVPI_post_carry": 1.9,
+          "Net_IRR_before_carry": "19.0%",
+          "Net_IRR_after_carry": "16.3%",
+          "DPI_original_commitment": 0.79,
+          "DPI_incl_recall": 0.79
+        }
+      },
+      "MOIC": {
+        "Jun'22": {
+          "Divestments": 1259.82,
+          "Unrealised_fair_value": 2323.27,
+          "Forex": 9.33,
+          "Amt_invested": 1468.91,
+          "Gross_IRR_after_Forex": "26.0%",
+          "MOIC_incl_FOREX": "2.44x"
+        },
+        "Sep'22": {
+          "Divestments": 1305.95,
+          "Unrealised_fair_value": 2297.23,
+          "Forex": 11.53,
+          "Amt_invested": 1468.91,
+          "Gross_IRR_after_Forex": "25.1%",
+          "MOIC_incl_FOREX": "2.45x"
+        },
+        "Dec'22": {
+          "Divestments": 1305.96,
+          "Unrealised_fair_value": 2126.02,
+          "Forex": 12.57,
+          "Amt_invested": 1468.91,
+          "Gross_IRR_after_Forex": "23.8%",
+          "MOIC_incl_FOREX": "2.34x"
+        },
+        "Est Mar'23": {
+          "Divestments": 1305.96,
+          "Unrealised_fair_value": 2134.4,
+          "Forex": 11.91,
+          "Amt_invested": 1468.91,
+          "Gross_IRR_after_Forex": "22.2%",
+          "MOIC_incl_FOREX": "2.34x"
+        }
+      }
+    },
+    {
+      "name": "India Fund IV",
+      "currency": "INRm",
+      "TVPI_ratio": {
+        "Jun'22": {
+          "Distribution": 218.36,
+          "Drawdown": 9104.93,
+          "TVPI_pre_carry": 1.83,
+          "TVPI_post_carry": 1.66,
+          "Net_IRR_before_carry": "51.2%",
+          "Net_IRR_after_carry": "42.5%",
+          "DPI_original_commitment": "NA",
+          "DPI_incl_recall": "NA"
+        },
+        "Sep'22": {
+          "Distribution": 461.4,
+          "Drawdown": 9919.79,
+          "TVPI_pre_carry": 1.89,
+          "TVPI_post_carry": 1.71,
+          "Net_IRR_before_carry": "48.6%",
+          "Net_IRR_after_carry": "40.5%",
+          "DPI_original_commitment": 0.02,
+          "DPI_incl_recall": "NA"
+        },
+        "Dec'22": {
+          "Distribution": 461.4,
+          "Drawdown": 10226.66,
+          "TVPI_pre_carry": 1.69,
+          "TVPI_post_carry": 1.55,
+          "Net_IRR_before_carry": "35.6%",
+          "Net_IRR_after_carry": "29.6%",
+          "DPI_original_commitment": 0.02,
+          "DPI_incl_recall": "NA"
+        },
+        "Est Mar'23": {
+          "Distribution": 461.4,
+          "Drawdown": 10574.79,
+          "TVPI_pre_carry": 1.63,
+          "TVPI_post_carry": 1.5,
+          "Net_IRR_before_carry": "29.7%",
+          "Net_IRR_after_carry": "24.6%",
+          "DPI_original_commitment": 0.02,
+          "DPI_incl_recall": "NA"
+        }
+      },
+      "MOIC": {
+        "Jun'22": {
+          "Divestments": "NA",
+          "Unrealised_fair_value": 16416.26,
+          "Forex": 74.23,
+          "Amt_invested": 7774.35,
+          "Gross_IRR_after_Forex": "68.79%",
+          "MOIC_incl_FOREX": "2.11x"
+        },
+        "Sep'22": {
+          "Divestments": 243.04,
+          "Unrealised_fair_value": 18230.46,
+          "Forex": 131.17,
+          "Amt_invested": 8343.4,
+          "Gross_IRR_after_Forex": "64.01%",
+          "MOIC_incl_FOREX": "2.21x"
+        },
+        "Dec'22": {
+          "Divestments": 243.04,
+          "Unrealised_fair_value": 17320.98,
+          "Forex": 159.07,
+          "Amt_invested": 8855.81,
+          "Gross_IRR_after_Forex": "48.27%",
+          "MOIC_incl_FOREX": "1.98x"
+        },
+        "Est Mar'23": {
+          "Divestments": 243.04,
+          "Unrealised_fair_value": 17254.4,
+          "Forex": 140.61,
+          "Amt_invested": 9085.05,
+          "Gross_IRR_after_Forex": "40.6%",
+          "MOIC_incl_FOREX": "1.93x"
+        }
+      }
+    },
+    {
+      "name": "Intl. Fund IV",
+      "currency": "USDm",
+      "TVPI_ratio": {
+        "Jun'22": {
+          "Distribution": "NA",
+          "Drawdown": 89.48,
+          "TVPI_pre_carry": 1.56,
+          "TVPI_post_carry": 1.45,
+          "Net_IRR_before_carry": "40.9%",
+          "Net_IRR_after_carry": "33.6%",
+          "DPI_original_commitment": "NA",
+          "DPI_incl_recall": "NA"
+        },
+        "Sep'22": {
+          "Distribution": 2.31,
+          "Drawdown": 97.93,
+          "TVPI_pre_carry": 1.65,
+          "TVPI_post_carry": 1.52,
+          "Net_IRR_before_carry": "41.3%",
+          "Net_IRR_after_carry": "34.0%",
+          "DPI_original_commitment": 0.02,
+          "DPI_incl_recall": "NA"
+        },
+        "Dec'22": {
+          "Distribution": 2.31,
+          "Drawdown": 100.85,
+          "TVPI_pre_carry": 1.52,
+          "TVPI_post_carry": 1.41,
+          "Net_IRR_before_carry": "29.2%",
+          "Net_IRR_after_carry": "24.0%",
+          "DPI_original_commitment": 0.02,
+          "DPI_incl_recall": "NA"
+        },
+        "Est Mar'23": {
+          "Distribution": 2.31,
+          "Drawdown": 100.82,
+          "TVPI_pre_carry": 1.5,
+          "TVPI_post_carry": 1.4,
+          "Net_IRR_before_carry": "24.4%",
+          "Net_IRR_after_carry": "20.0%",
+          "DPI_original_commitment": 0.02,
+          "DPI_incl_recall": "NA"
+        }
+      },
+      "MOIC": {
+        "Jun'22": {
+          "Divestments": "NA",
+          "Unrealised_fair_value": 139.6,
+          "Forex": -3.83,
+          "Amt_invested": 80.21,
+          "Gross_IRR_after_Forex": "52.3%",
+          "MOIC_incl_FOREX": "1.74x"
+        },
+        "Sep'22": {
+          "Divestments": 2.31,
+          "Unrealised_fair_value": 158.85,
+          "Forex": -5.54,
+          "Amt_invested": 87.81,
+          "Gross_IRR_after_Forex": "50.4%",
+          "MOIC_incl_FOREX": "1.84x"
+        },
+        "Dec'22": {
+          "Divestments": 2.31,
+          "Unrealised_fair_value": 151.58,
+          "Forex": -6.3,
+          "Amt_invested": 93.38,
+          "Gross_IRR_after_Forex": "35.8%",
+          "MOIC_incl_FOREX": "1.65x"
+        },
+        "Est Mar'23": {
+          "Divestments": 2.31,
+          "Unrealised_fair_value": 150.42,
+          "Forex": -5.78,
+          "Amt_invested": 93.98,
+          "Gross_IRR_after_Forex": "30.0%",
+          "MOIC_incl_FOREX": "1.63x"
+        }
+      }
+    }
+  ]
+}
