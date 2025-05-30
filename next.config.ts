@@ -7,6 +7,37 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // Disable experimental features
+  experimental: {
+    useCache: false,
+    reactCompiler: false,
+  },
+  // Add specific webpack configuration
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        path: false,
+      };
+    }
+    // Add specific watchOptions
+    config.watchOptions = {
+      ...config.watchOptions,
+      ignored: [
+        '**/node_modules',
+        '**/.git',
+        '**/Application Data',
+        '**/AppData',
+        '**/Cookies',
+        '**/Local Settings',
+        '**/Windows',
+      ],
+    };
+    return config;
+  },
+  // Disable source maps in production
+  productionBrowserSourceMaps: false,
   async headers() {
     return [
       {
@@ -19,10 +50,6 @@ const nextConfig: NextConfig = {
         ],
       },
     ];
-  },
-  experimental: {
-    useCache: true,
-    reactCompiler: true,
   },
 };
 
