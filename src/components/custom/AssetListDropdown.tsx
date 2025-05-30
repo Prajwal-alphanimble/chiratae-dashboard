@@ -22,7 +22,7 @@ interface dropdownProps {
 export const AssetListDropdown: React.FC<dropdownProps> = ({
   setterFunc,
   assetArrayFunc,
-  selectedAsset = "Active AI",
+  selectedAsset = "Asset Name 1",
   className,
   Sector_ID = 0,
   onSectorChange,

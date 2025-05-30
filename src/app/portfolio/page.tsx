@@ -19,7 +19,7 @@ import InternationalMetricsTemplate from "./portfolio-components/internationalMe
 
 function Page() {
   const [activeTab, setActiveTab] = useState("overview");
-  const [asset, setAsset] = useState("Active AI");
+  const [asset, setAsset] = useState("Asset Name 1");
   const [assets, setAssets] = useState<string[]>();
   const [currentSector, setCurrentSector] = useState<number>(0);
   const [key, setKey] = useState(0);

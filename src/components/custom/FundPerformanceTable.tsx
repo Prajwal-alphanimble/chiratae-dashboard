@@ -147,7 +147,7 @@ export default function FundPerformanceTable({
   // State management
   const [showChart, setShowChart] = useState<boolean>(isShowChart ?? false);
   const [selectedAsset, setSelectedAsset] = useState<string>(
-    assetName ?? "Active AI",
+    assetName ?? "Asset Name 1",
   );
   const [selectedMetric, setSelectedMetric] = useState<string>(
     metricNameProp ?? "Gross Revenue",
