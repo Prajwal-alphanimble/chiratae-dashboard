@@ -40,7 +40,7 @@ export const MultiSelectParam: React.FC<MultiSelectParamProps> = ({
   } = useQuery({
     queryKey: ["assetList"],
     queryFn: async () => {
-      const res = await fetch("http://localhost:3000/api/asset-list");
+      const res = await fetch("/api/asset-list");
       if (!res.ok) {
         throw new Error("failed to fetch asset list");
       }

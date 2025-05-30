@@ -63,7 +63,7 @@ const fetchAssetData = async (
 ): Promise<AssetData> => {
   try {
     const response = await fetch(
-      `http://localhost:3000/api/asset-metrics?asset-name=${encodeURIComponent(
+      `/api/asset-metrics?asset-name=${encodeURIComponent(
         assetName,
       )}&isPlan=${isPlan}`,
     );
@@ -194,7 +194,7 @@ export default function FundPerformanceTable({
   useEffect(() => {
     async function fetchAssets() {
       try {
-        const res = await fetch("http://localhost:3000/api/asset-list");
+        const res = await fetch("/api/asset-list");
         if (res.ok) {
           const data = await res.json();
           if (data.assetList && Array.isArray(data.assetList)) {
@@ -478,7 +478,7 @@ export default function FundPerformanceTable({
       // If chart is turned on and no assets are loaded, load them
       const fetchAssetsForChart = async () => {
         try {
-          const res = await fetch("http://localhost:3000/api/asset-list");
+          const res = await fetch("/api/asset-list");
           if (res.ok) {
             const data = await res.json();
             if (data.assetList && Array.isArray(data.assetList)) {

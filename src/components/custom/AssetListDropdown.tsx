@@ -38,7 +38,7 @@ export const AssetListDropdown: React.FC<dropdownProps> = ({
     queryKey: ["assetList", sector_ID],
     queryFn: async () => {
       const res = await fetch(
-        `http://localhost:3000/api/asset-list?sid=${encodeURIComponent(sector_ID)}`,
+        `/api/asset-list?sid=${encodeURIComponent(sector_ID)}`,
       );
       if (!res.ok) {
         throw new Error("failed to fetch asset list");

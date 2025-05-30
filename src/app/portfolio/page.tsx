@@ -49,7 +49,7 @@ function Page() {
 
   async function fetchData<T>(endpoint: string, assetName: string): Promise<T> {
     const response = await fetch(
-      `http://localhost:3000/api/${encodeURIComponent(
+      `/api/${encodeURIComponent(
         endpoint,
       )}?asset-name=${encodeURIComponent(assetName)}`,
       { cache: "force-cache" },
@@ -135,8 +135,8 @@ function Page() {
             <Button
               key={tab.id}
               className={`${activeTab === tab.id
-                  ? "bg-background text-foreground hover:bg-background drop-shadow-lg"
-                  : "bg-transparent text-foreground/50 hover:bg-transparent drop-shadow-none"
+                ? "bg-background text-foreground hover:bg-background drop-shadow-lg"
+                : "bg-transparent text-foreground/50 hover:bg-transparent drop-shadow-none"
                 }`}
               onClick={() => setActiveTab(tab.id)}
             >
