@@ -74,7 +74,7 @@ function Dashboard() {
     if (views?.userViews) {
       const savedLayout = localStorage.getItem('dashboardLayout');
       const savedViews = localStorage.getItem('dashboardViews');
-
+      
       if (savedLayout && savedViews) {
         setLayout(JSON.parse(savedLayout));
         setDashboardViews(JSON.parse(savedViews));
@@ -170,7 +170,7 @@ function Dashboard() {
               )}
             </SelectContent>
           </Select>
-          <Button
+          <Button 
             onClick={addViewToDashboard}
             disabled={!selectedView}
             className="flex items-center gap-2"
@@ -214,9 +214,9 @@ function Dashboard() {
           useCSSTransforms={true}
         >
           {dashboardViews.map((view) => (
-            <div
-              key={view.gridId}
-              className={`bg-white ${isEditMode ? 'drag-handle' : ''} rounded shadow`}
+            <div 
+              key={view.gridId} 
+              className={`bg-white ${isEditMode ? 'drag-handle' : ''} rounded shadow`} 
               style={{ border: '1px solid #ccc' }}
             >
               <div className="p-4 h-full">
